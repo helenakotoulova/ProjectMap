@@ -47,4 +47,16 @@ export const data = [
     link: "https://tours-df023.web.app",
     image: "./images/tours.png",
   },
+  {
+    id: 9,
+    title: "Calculator",
+    link: "https://calculator-61f2b.web.app",
+    image: "./images/kalkulacka.png",
+  },
+  {
+    id: 10,
+    title: "Quotes - custom useHttp Hook",
+    link: "https://quotes-1df3c.web.app/quotes",
+    image: "./images/quotes.png",
+  },
 ];
