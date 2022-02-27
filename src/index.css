@@ -1,45 +1,78 @@
 * {
-  box-sizing: border-box ;
+  box-sizing: border-box;
 }
 
-:root {
-  --clr-bcg: #fff;
-  --clr-font: #282c35;
-  --clr-primary: #d23669;
-}
-
-html {
-  width:100%;
-  height:100%;
-  margin:0;
-  padding:0;
-  /*background-color: #f1f5f8;*/
+html,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  padding:0;
-  width:100%;
-  height:100%;
-  transition: all 0.3s linear;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.dark-theme {
-  background-color:black;
-  color:white;
-}
-.light-theme {
-  background-color:white;
-  color:black;
+#aboutMe,
+#projects {
+  padding: 2rem 5rem;
 }
 
-#root {
-  padding:0;
-  width:100%;
-  height:100%;
-  margin:0;
+#projects {
+  background-color: hsl(212, 33%, 89%);
+  padding-bottom: 4rem;
 }
 
+#aboutMe {
+  background: hsl(210, 36%, 96%);
+}
+
+#aboutMe h2 {
+  font: inherit;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  margin: 0 0 0.5rem;
+}
+
+.underline {
+  width: 4rem;
+  height: 0.2rem;
+  margin: 0 auto 2rem;
+  background-color: hsl(205, 72%, 37%);
+}
+
+.textPart {
+  text-align: justify;
+  max-width: 80%;
+  margin:auto;
+}
+
+.aboutMe p {
+  line-height: 1.5;
+}
+
+#projects::before,
+#aboutMe::before {
+  content: "";
+  display: block;
+  height: 4rem; /* fixed header height*/
+  /*margin: -5rem 0 0; /* negative fixed header height */
+}
+/*
+#aboutMe {
+  margin-top: 5rem;
+}
+*/
+
+#projects {
+  padding-top: 0;
+}

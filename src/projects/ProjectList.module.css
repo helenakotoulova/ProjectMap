@@ -1,0 +1,33 @@
+.section {
+    display:grid;
+    max-width:80%;
+    margin:auto;
+    grid-template-columns: 1fr;
+    gap:2rem;
+}
+
+.title {
+    font: inherit;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    margin:0 0 0.5rem;
+}
+
+.underline {
+    width: 10rem;
+    height:0.2rem;
+    margin: 0 auto 2rem;
+    background-color: hsl(205, 72%, 37%);
+}
+
+@media screen and (min-width:880px) {
+    .section {
+        display:grid;
+        max-width:80%;
+        margin:auto;
+        grid-template-columns: repeat(3, 1fr);
+        gap:2rem;
+    }
+}

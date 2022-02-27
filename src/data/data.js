@@ -7,9 +7,9 @@ export const data = [
   },
   {
     id: 2,
-    title: "Tasks",
-    link: "https://ukoly-d268c.web.app",
-    image: "./images/tasks.png",
+    title: "Meetups",
+    link: "https://meetup-projekt-znovu.web.app",
+    image: "./images/meetups.png",
   },
   {
     id: 3,
@@ -49,14 +49,26 @@ export const data = [
   },
   {
     id: 9,
-    title: "Calculator",
+    title: "Simple Todo App with Typescript and React Context",
+    link: "https://todostypescript.web.app",
+    image: "./images/todos2.png",
+  },
+  {
+    id: 10,
+    title: "Calculator - useReducer",
     link: "https://calculator-61f2b.web.app",
     image: "./images/kalkulacka.png",
   },
   {
-    id: 10,
+    id: 11,
     title: "Quotes - custom useHttp Hook",
     link: "https://quotes-1df3c.web.app/quotes",
     image: "./images/quotes.png",
   },
+  {
+    id: 12,
+    title: "Redux Cart",
+    link: "https://redux-projekt.web.app/",
+    image: "./images/cartRedux.png",
+  }
 ];

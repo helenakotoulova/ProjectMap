@@ -1,0 +1,8 @@
+.layout {
+    display:grid;
+    grid-template-rows: auto;
+}
+.main {
+    padding:0rem;
+    margin-top: 0rem;
+}
